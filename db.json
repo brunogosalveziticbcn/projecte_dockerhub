@@ -1,0 +1,170 @@
+{
+  "start": [
+    {
+      "id": "0",
+      "desc": "fem un joc de cultura general! començem amb l'endpoint geografia. si t'atrabanques, ves a l'endpoint pistes per una petita ajuda. :)"
+    }
+  ],
+
+  "pistes": [
+    {
+      "id": "10",
+      "geografia": "geo_hint",
+      "esports": "esp_hint",
+      "ciencia": "ci_hint",
+      "enigma": "en_hint",
+      "utlima_prova": "up_hint"
+    }
+  ],
+
+  "geo_hint": [
+    {
+      "id": "geo_hint",
+      "desc": "Nova _ _ _ _ _"
+      
+    }
+  ],
+
+  "esp_hint": [
+    {
+      "id": "esp_hint",
+      "desc": "Nadador"
+      
+    }
+  ],
+
+  "ci_hint": [
+    {
+      "id": "ci_hint",
+      "desc": "Nadador"
+      
+    }
+  ],
+
+  "en_hint": [
+    {
+      "id": "en_hint",
+      "desc": "de debò? 😐"
+    }
+  ],
+
+  "up_hint": [
+    {
+      "id": "up_hint",
+      "nivell1": "fes servir una funció que serveix per esborrar la paraula que sobra",
+      "nivell2": "fes servir una funció que serveix per afegir la resposta. 💡 comença amb la lletra M",
+      "nivell3": "la primera paraula es un animal volador, la segona es una part d'un ecosistema",
+      "paraula_clau": "lletres inicials"
+    }
+  ],
+
+  "geografia": [
+    {
+      "id": "1",
+      "pregunta": "Quina es la capital de l'India?",
+      "desc": "ves a l'endpoint resposta_geografia i afegeix la teva resposta per comprovar si es correcta"
+    }
+  ],
+  "resposta_geografia": [
+    {
+      "id": "Nova Delhi",
+      "desc": "correcte! continua amb l'endpoint esports"
+    }
+  ],
+  "esports": [
+    {
+      "id": "2",
+      "pregunta": "Quin es el atleta amb més medalles olimpiques?",
+      "desc": "ves a l'endpoint resposta_esports i afegeix la teva resposta per comprovar si es correcta"
+    }
+  ],
+  "resposta_esports": [
+    {
+      "id": "Michael Phelps",
+      "desc": "correcte! continua amb l'endpoint ciencia. Ja queda poc!"
+    }
+  ],
+  "ciencia": [
+    {
+      "id": "3",
+      "pregunta": "Quina es la unitat mes petita de la materia?",
+      "desc": "ves a l'endpoint resposta_ciencia i afegeix la teva resposta per comprovar si es correcta"
+    }
+  ],
+  "resposta_ciencia": [
+    {
+      "id": "atom",
+      "desc": "correcte! Felicitats, has contestat exitosament totes les preguntes. ves al endpoint trofeu per adquirir el teu premi :)"
+    }
+  ],
+  "premi": [
+    {
+      "id": "premi",
+      "desc": "Has caigut a la meva trampa! pensaves que seria tan facil? Abans de aconseguir el premi, hauras de resoldre un enigma. ves a l'endpoint enigma per intentar-ho, tot i que no crec que siguis capaç de resoldre-la..."
+    }
+  ],
+  "enigma": [
+    {
+      "id": "enigma",
+      "desc": "1 + 2 = ?        *ves a resposta_enigma per intentar resoldre l'enigma*"
+    }
+  ],
+  "resposta_enigma": [
+    {
+      "id": "3",
+      "desc": "no pot ser! com ho has fet? portava dies intentant-ho... una ultima prova i aconseguiras el teu premi! ves a l'endpoint ultima_prova"
+    }
+  ],
+  "ultima_prova": [
+    {
+      "id": "ultima_prova",
+      "desc": "Aquesta es la prova final, t'ho juro. no mes trampes. hi ha 3 grups de paraules, hauras de fer servir els endpoints nivell1, 2 i 3 i resoldre cada pas per obtenir el resultat final, una paraula clau. Quan ho hagis aconseguit, ves a l'endpoint resposta_final/[paraula clau]"
+    }
+  ],
+  "nivell1": [
+    {
+      "id": "0",
+      "desc": "esborra la paraula que no pertany al grup"
+    },
+    {
+      "id": "1",
+      "paraula1": "llop"
+    },
+    {
+      "paraula1": "casa",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "paraula1": "iguana"
+    }
+  ],
+  "nivell2": [
+    {
+      "id": "1",
+      
+      "endevinança": "amb notes que volen i melodies que encanten, em trobes en concerts i en qualsevol lloc. soc el llenguatge universal que no necessita paraules, puc fer-te ballar o portar-te a somiar. Que soc?",
+      
+      "resposta": ""
+    }
+  ],
+
+  "nivell3": [
+    {
+      "id": "1",
+      "endevinança": "ordena les següents paraules:",
+      
+      "paraula1": "C - E - L - O - L",
+      "paraula2": "T - A - N - R - U - A"
+    }
+  ],
+
+  "resposta_final": [
+    {
+      "id": "limon",
+      "desc": "enhorabona, has guanyat! aquí tens el teu premi",
+      "premi": "https://drive.google.com/file/d/1ehCQkotvQN1GnUZHkiWyA8yFkeQJG_at/view?usp=sharing"
+    }
+  ]
+
+}
